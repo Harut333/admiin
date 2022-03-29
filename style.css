@@ -37,7 +37,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 60px 0;
     position: relative;
     margin-bottom: 50px;
 }
@@ -137,7 +137,7 @@
 }
 
 .expand {
-    width: auto;
+    width: 100%;
     height: 22px;
     display: flex;
     justify-content: flex-end;
@@ -151,12 +151,16 @@
     color: #1C3D5D;
     cursor: pointer;
     position: absolute;
-    right: 14%;
-    bottom: -20px;
+    bottom: 7px;
     z-index: 2;
-    padding: 5px 0 0 0;
+    padding: 5px 0 30px 0;
 }
-.expand p{
+
+.expand:first-child {
+    right: 14%;
+}
+
+.expand p {
     font-family: Open Sans;
     font-size: 16px;
     font-style: normal;
@@ -166,8 +170,11 @@
     text-align: right;
     color: #1C3D5D;
     cursor: pointer;
+    right: 14%;
+    position: absolute;
 }
-.expand:hover #expandBtn{
+
+.expand:hover #expandBtn {
     color: #EA6227;
 }
 
@@ -180,15 +187,15 @@
     cursor: pointer;
 }
 
-hr{
+hr {
     height: 1px;
     border: none;
     background-color: #EBEBEB;
-    margin-top: 20px;
+    margin-top: -49.5px;
 }
+
 /* accordion */
 
-.less{
+.less {
     height: auto;
 }
-

@@ -1,15 +1,14 @@
-
-@media(min-width:426px) and (max-width:555px) {
+@media(min-width:425px) and (max-width:555px) {
     .header{
-        justify-content: center;
+        margin: 0;
     }
     .header p{
-        font-size: 20px;
+        font-size: 18px;
         white-space: nowrap;
         margin: 0;
     }
     .content{
-        padding: 0 0 0 0;
+        padding: 0 0 33px 0;
     }
     .title{
         display: flex;
@@ -21,24 +20,29 @@
         white-space: nowrap;
     }
     .title a {
-        font-size: 13px;
+        font-size: 14px;
         white-space: nowrap;
 
     }
+    .expand p {
+        font-size: 14px;
+        line-height: 20px;
+    }
     .textBox p {
         font-size: 15px;
-        line-height: 21px;
+        line-height: 20px;
     }
     .checkBox{
         height: 103px;
+
         display: flex;
         margin: 25px 5px 0 0;
 
     }
     .check{
-        border-radius: 5px;
         width: 25px;
         height: 25px;
+        border-radius: 50%;
         background: linear-gradient(129.55deg, #14BC5F -7.24%, #007D38 113.94%);
 
     }
@@ -46,8 +50,10 @@
         width: 60%;
         height: 50%;
     }
-    .expand p{
-        font-size: 16px;
+    .expand{
+        padding: 0;
+        font-size: 14px;
     }
-   
+    
+
 }

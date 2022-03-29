@@ -1,0 +1,47 @@
+
+@media(min-width:768px) and (max-width:1024px) {
+   
+    .header p{
+        font-size: 20px;
+        white-space: nowrap;
+        margin: 0 0 0 20px;
+    }
+    .content{
+        padding: 0 0 0 0;
+    }
+    .title h1 {
+        font-size: 19px;
+        white-space: nowrap;
+    }
+    .title a {
+        font-size: 17px;
+        white-space: nowrap;
+
+    }
+    .textBox p {
+        font-size: 17px;
+
+        line-height: 23px;
+    }
+    .checkBox{
+        height: 103px;
+        display: flex;
+        margin: 25px 19px 0 0;
+
+    }
+    .check{
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        background: linear-gradient(129.55deg, #14BC5F -7.24%, #007D38 113.94%);
+
+    }
+    .check img{
+        width: 60%;
+        height: 50%;
+    }
+    .expand p{
+        font-size: 18px;
+    }
+   
+}

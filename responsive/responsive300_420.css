@@ -1,0 +1,55 @@
+
+@media(min-width:300px) and (max-width:425px) {
+    .header{
+        justify-content: center;
+        margin: 0;
+    }
+    .header p{
+        font-size: 18px;
+        white-space: nowrap;
+        margin: 0;
+    }
+    .content{
+        padding: 0 0 0 0;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .title h1 {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .title a {
+        font-size: 12px;
+        white-space: nowrap;
+
+    }
+    .textBox p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .checkBox{
+        height: 103px;
+
+        display: flex;
+        margin: 25px 5px 0 0;
+
+    }
+    .check{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: linear-gradient(129.55deg, #14BC5F -7.24%, #007D38 113.94%);
+
+    }
+    .check img{
+        width: 60%;
+        height: 50%;
+    }
+    .expand p{
+        font-size: 16px;
+    }
+   
+}
